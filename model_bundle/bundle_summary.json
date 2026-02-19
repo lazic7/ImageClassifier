@@ -1,0 +1,89 @@
+{
+  "source_root": "C:\\Users\\User\\Desktop\\New folder\\models\\efficientnet_hier",
+  "out_root": "C:\\Users\\User\\Desktop\\New folder\\model_bundle",
+  "species": {
+    "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\species\\species_best.pt",
+    "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\species\\species_labels.json",
+    "num_classes": 20
+  },
+  "breeds": {
+    "cat": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\cat_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_cat.json",
+      "num_classes": 66
+    },
+    "cattle": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\cattle_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_cattle.json",
+      "num_classes": 119
+    },
+    "chicken": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\chicken_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_chicken.json",
+      "num_classes": 62
+    },
+    "dog": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\dog_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_dog.json",
+      "num_classes": 132
+    },
+    "donkey": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\donkey_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_donkey.json",
+      "num_classes": 7
+    },
+    "duck": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\duck_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_duck.json",
+      "num_classes": 9
+    },
+    "goat": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\goat_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_goat.json",
+      "num_classes": 18
+    },
+    "goose": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\goose_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_goose.json",
+      "num_classes": 10
+    },
+    "horse": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\horse_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_horse.json",
+      "num_classes": 121
+    },
+    "pig": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\pig_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_pig.json",
+      "num_classes": 19
+    },
+    "pigeon": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\pigeon_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_pigeon.json",
+      "num_classes": 19
+    },
+    "rabbit": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\rabbit_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_rabbit.json",
+      "num_classes": 13
+    },
+    "sheep": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\sheep_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_sheep.json",
+      "num_classes": 78
+    },
+    "turkey": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\turkey_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_turkey.json",
+      "num_classes": 2
+    },
+    "water_buffalo": {
+      "checkpoint": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\water_buffalo_best.pt",
+      "labels_json": "C:\\Users\\User\\Desktop\\New folder\\model_bundle\\breeds\\breed_labels_water_buffalo.json",
+      "num_classes": 4
+    }
+  },
+  "missing_breed_models": [
+    "dromedary"
+  ]
+}
