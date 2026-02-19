@@ -9,8 +9,11 @@ public class CORSConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/**")
-                .allowedOrigins("http://localhost:5173")
+        registry.addMapping("/**")
+                .allowedOrigins(
+                        "http://localhost:5173",
+                        "https://lambent-mermaid-6c35b5.netlify.app"
+                )
                 .allowedMethods("GET", "POST", "OPTIONS")
                 .allowedHeaders("*");
     }
