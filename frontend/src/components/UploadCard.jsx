@@ -101,6 +101,10 @@ function BatchSummary({ predictions }) {
   );
 }
 
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:8080"
+).replace(/\/$/, "");
+
 export function UploadCard() {
   const inputRef = useRef(null);
   const [files, setFiles] = useState([]);
@@ -181,7 +185,7 @@ export function UploadCard() {
         form.append("images", file);
       });
 
-      const resp = await fetch("http://localhost:8080/api/predict", {
+      const resp = await fetch(`${API_BASE_URL}/api/predict`, {
         method: "POST",
         body: form,
       });
