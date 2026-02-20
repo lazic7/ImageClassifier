@@ -139,7 +139,7 @@ export function UploadCard() {
       return;
     }
 
-    setFiles(selected);
+    setFiles((prevFiles) => [...prevFiles, ...selected]);
   }
 
   function onChange(e) {
