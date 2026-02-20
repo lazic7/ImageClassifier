@@ -72,7 +72,7 @@ function BatchSummary({ predictions }) {
             Glasovi: {summary.finalSpeciesVotes}/{predictions.length}
           </div>
           <div className="text-sm text-gray-600">
-            Prosek conf:{" "}
+            Prosjek conf:{" "}
             {formatPercent(
               (summary.speciesScores[summary.finalSpecies] || 0) /
                 (summary.finalSpeciesVotes || 1),
@@ -89,7 +89,7 @@ function BatchSummary({ predictions }) {
             Glasovi: {summary.finalBreedVotes}/{summary.totalBreedCandidates}
           </div>
           <div className="text-sm text-gray-600">
-            Prosek conf:{" "}
+            Prosjek conf:{" "}
             {formatPercent(
               (summary.breedScores[summary.finalBreed] || 0) /
                 (summary.finalBreedVotes || 1),
