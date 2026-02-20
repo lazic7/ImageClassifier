@@ -8,6 +8,10 @@ Aplikacija omogućuje upload jedne ili više slika, njihovu obradu putem backend
 
 ---
 
+<img width="2560" height="1320" alt="image" src="https://github.com/user-attachments/assets/ad49149a-19bf-48fa-ac80-13ccf1b26ae1" />
+
+---
+
 ## Online demo
 
 **UI aplikacija:**  
